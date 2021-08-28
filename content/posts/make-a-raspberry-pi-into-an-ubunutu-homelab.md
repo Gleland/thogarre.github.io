@@ -10,6 +10,10 @@ tags:
 - homelab
 - raspberry-pi
 - ubuntu
+hideReadMore: true
+lastmod: 2021-08-28
+
+toc: true
 ---
 
  {{< figure src="/images/ubuntu-logo.png" alt="Image of a blue ruler" style="border-radius: 4px; width:40%" >}}
@@ -23,7 +27,7 @@ If you want to try out Ubuntu intstead of Raspbian, here's a brief guide on how 
 
 Visit [https://releases.ubuntu.com](https://releases.ubuntu.com) to find the latest LTS (Long Term Support) version and download it locally. As of this writing it’s 20.04, Focal Fossa.
 
-## Step 2: Put the image onto a SD card
+## Step 2: Put the image onto an SD card
 
 This can be done manually, but there’s an official [Raspberry Pi Imager](https://www.raspberrypi.org/software/) (Windows/Ubuntu/macOS supported) that makes this easy. Download this, run it, and choose to download an image, or import the one used from Step 1.
 

@@ -2,11 +2,16 @@
 title: Significant Figures Calculator
 date: 2018-03-11
 draft: false
+hideReadMore: true
+lastmod: 2021-08-28
+tags:
+- python
+lastmod: 2021-08-28
 ---
 
  {{< figure src="/images/ruler.jpg" alt="Image of a blue ruler" style="border-radius: 4px; width:40%" >}}
 
-This inspiration came from when I was in grad school, trying to finish my error analysis assignments. Basically, how can you trust the computer (or programming language) to conserve whatver significant figure you have during a calculation?
+This inspiration came from when I was in grad school, trying to finish my error analysis assignments. Basically, how can you trust the computer (or programming language) to conserve whatever significant figure you have during a calculation?
 
 Included in this repository are **sigfigs.py**, which has the code to count the number of significant figures in a number, and **test.py**, which will allow the user to run a test to confirm whether the code works in its method.
 
