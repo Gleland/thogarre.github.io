@@ -1,5 +1,6 @@
 ---
 title: Significant Figures Calculator
+summary: "Sigfigs calculator"
 date: 2018-03-11
 draft: false
 hideReadMore: true

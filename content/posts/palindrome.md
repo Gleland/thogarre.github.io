@@ -1,5 +1,6 @@
 ---
 title: Palindrome
+summary: "Feburary 2nd, 2020 is a palindrome"
 date: 2020-02-02
 draft: false
 hideReadMore: true
