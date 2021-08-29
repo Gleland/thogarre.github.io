@@ -18,3 +18,15 @@
 .archive__group-year {
     margin-top: 0px;
 }
+
+
+.logo__cursor {
+    /* custom blue instead of red cursor */
+    background: #2f9ddf;
+}
+
+
+@keyframes cursor {
+    /* hacky way to remove blinking */
+    100% { opacity: 1; }
+}
