@@ -1,0 +1,20 @@
+/*
+ * custom styling on top of hello-friend's defaults
+*/
+
+.post {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.post-title {
+    font-size: 1.75rem;
+}
+.archive__group-month {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.archive__group-year {
+    margin-top: 0px;
+}
