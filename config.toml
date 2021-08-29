@@ -45,11 +45,11 @@ paginate = 5
     lastModDisplay = "Modified:"
 
     [languages.en.params.logo]
-      logoText = "thogarre.github.io"
+      logoText = "blog.garrett-thompson.com"
       logoHomeLink = "/"
     # or
     #
-    # path = "/img/your-example-logo.svg"
+      #path = "/images/favicon.ico"
     # alt = "Your example logo alt text"
     [languages.en.menu]
       [[languages.en.menu.main]]
