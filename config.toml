@@ -1,5 +1,5 @@
-title = 'thogarre.github.io'
-baseurl = "/"
+title = 'Garrett Thompson'
+baseurl = "https://blog.garrett-thompson.com/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
