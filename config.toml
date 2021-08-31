@@ -28,8 +28,8 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "thogarre.github.io"
-    subtitle = "A simple theme for Hugo"
+    title = "Garrett's blog"
+    subtitle = "welcome!"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
