@@ -8,7 +8,7 @@ categories:
 tags:
 - books
 hideReadMore: true
-lastmod: 2021-08-28
+lastmod: 2021-10-10
 ---
 
 This is something that I expect to update over time; here’s a collection of short stories and books that I enjoy, and hope you will too.
@@ -29,3 +29,4 @@ This is something that I expect to update over time; here’s a collection of sh
 - [Dune](https://en.wikipedia.org/wiki/Dune_(novel))
 - [Forever War](https://en.wikipedia.org/wiki/The_Forever_War), [Forever Free](https://en.wikipedia.org/wiki/Forever_Free_(novel)), and [Forever Peace](https://en.wikipedia.org/wiki/Forever_Peace)
 - [The Long Walk](https://en.wikipedia.org/wiki/The_Long_Walk)
+- [The Mistborn Series](https://en.wikipedia.org/wiki/Mistborn) (note, as of this writing, I've only read the first three novels.
