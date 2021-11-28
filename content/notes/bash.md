@@ -1,9 +1,8 @@
 ---
 title: Bash
-summary: "adsfadsf"
+summary: "Bash notes"
 draft: false
 hideReadMore: true
-#lastmod: 2021-08-28
 ---
 
 test file for notes functionality.
