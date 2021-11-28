@@ -16,7 +16,7 @@ for x in a b c; do echo $x;done
 the same loop with xargs:
 ```bash
 # back up of existing .tmp files
-echo $(ls -a | grep .tmp ) | xargs -I@ cp @ @.bak
+ls -a | grep .tmp | xargs -I@ cp @ @.bak
 ```
 
 
