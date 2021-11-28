@@ -1,15 +1,15 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-Categories ::
+Bash ::
 Garrett's blog — welcome!
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content>
+<meta name=description content="adsfadsf">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://blog.garrett-thompson.com/categories/>
+<link rel=canonical href=https://blog.garrett-thompson.com/notes/bash/>
 <link rel=stylesheet href=https://blog.garrett-thompson.com/assets/style.css>
 <link rel=stylesheet href=https://blog.garrett-thompson.com/style.css>
 <link rel=apple-touch-icon-precomposed sizes=144x144 href=https://blog.garrett-thompson.com/img/apple-touch-icon-144-precomposed.png>
@@ -21,13 +21,13 @@ Garrett's blog — welcome!
 <link href=https://blog.garrett-thompson.com/assets/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <link href=https://blog.garrett-thompson.com/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Categories">
-<meta name=twitter:description content>
-<meta property="og:title" content="Categories">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://blog.garrett-thompson.com/categories/"><meta property="og:site_name" content="Garrett's blog">
-<link rel=alternate type=application/rss+xml href=/categories/index.xml title="Garrett's blog">
+<meta name=twitter:title content="Bash">
+<meta name=twitter:description content="adsfadsf">
+<meta property="og:title" content="Bash">
+<meta property="og:description" content="adsfadsf">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.garrett-thompson.com/notes/bash/"><meta property="article:section" content="notes">
+<meta property="og:site_name" content="Garrett's blog">
 </head>
 <body>
 <div class=container>
@@ -60,22 +60,30 @@ Garrett's blog — welcome!
 </span>
 </header>
 <div class=content>
-<div class=terms>
-<h1>Categories</h1>
-<ul class=terms__list>
-<li class=terms__term>
-<a href=https://blog.garrett-thompson.com/categories/books/>#books <span class=terms__term-count>1</span></a>
-</li>
-<li class=terms__term>
-<a href=https://blog.garrett-thompson.com/categories/homelab/>#homelab <span class=terms__term-count>1</span></a>
-</li>
-<li class=terms__term>
-<a href=https://blog.garrett-thompson.com/categories/pets/>#pets <span class=terms__term-count>1</span></a>
-</li>
-<li class=terms__term>
-<a href=https://blog.garrett-thompson.com/categories/python/>#python <span class=terms__term-count>1</span></a>
-</li>
-</ul>
+<div class=post>
+<h1 class=post-title>Bash</h1>
+<div class=post-meta>
+</div>
+<div class=post-content>
+<p>test file for notes functionality.</p>
+<p>Simple for loop:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#66d9ef>for</span> x in a b c; <span style=color:#66d9ef>do</span> echo $x;<span style=color:#66d9ef>done</span>
+</code></pre></div><p>the same loop with xargs:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># back up of existing .tmp files</span>
+echo <span style=color:#66d9ef>$(</span>ls -a | grep .tmp <span style=color:#66d9ef>)</span> | xargs -I@ cp @ @.bak
+</code></pre></div><p>Commands can be sent via ssh:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>ssh $host -- date <span style=color:#75715e># for quick one-liners</span>
+</code></pre></div><p><a href=https://en.wikipedia.org/wiki/Here_document>Heredocs</a> are useful to send more involved commands over ssh:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># trivial commands for sake of example</span>
+ssh $host <span style=color:#e6db74>&lt;&lt; &#39;EOF&#39;
+</span><span style=color:#e6db74>    for i in $(seq 1 10); do
+</span><span style=color:#e6db74>        mkdir -p /tmp/tmp_$1
+</span><span style=color:#e6db74>    done
+</span><span style=color:#e6db74>    # check to see they all exist
+</span><span style=color:#e6db74>    ls tmp_*
+</span><span style=color:#e6db74>EOF</span>
+</code></pre></div>
+</div>
 </div>
 </div>
 <footer class=footer>
