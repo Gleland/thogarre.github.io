@@ -35,3 +35,17 @@ ssh $host << 'EOF'
     ls tmp_*
 EOF
 ```
+
+moving a file or groups of files using bash's expansion expression (works with ZSH as well):
+
+```bash
+# move a csv file to a text file
+mv intermediate_data{.csv,.txt}
+```
+
+more helpful when doing it via globbing:
+
+```
+# move all .txt files with bak to backup in the current directory
+mv database_backup_*{.bak,.backup}
+```
